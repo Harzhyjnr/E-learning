@@ -10,19 +10,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <router-link to="/" class="nav-link" >Home</router-link>
+          <router-link to="/" class="nav-link active text-dark" >Home</router-link>
+        </li>
+        <li class="nav-item"> 
+          <router-link to="/course" class="nav-link active text-dark" >Course</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/course" class="nav-link" >Course</router-link>
+          <router-link to="/about" class="nav-link active text-dark" >About us</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/about" class="nav-link" >About us</router-link>
+          <router-link to="/pricing" class="nav-link  active text-dark" >Pricing</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/pricing" class="nav-link" >Pricing</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/contact" class="nav-link" >Contact Us</router-link>
+          <router-link to="/contact" class="nav-link active text-dark" >Contact Us</router-link>
         </li>
         <li class="nav-item dropdown">
           <router-link class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">

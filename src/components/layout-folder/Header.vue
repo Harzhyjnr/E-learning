@@ -1,4 +1,5 @@
 <template>
+ <Announcement />
   <header class="header-container">
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -45,6 +46,8 @@
   </header>
 </template>
 
-<script setup></script>
+<script setup>
+import Announcement from "../layout-folder/Announcement.vue";
+</script>
 
 <style lang="scss" scoped></style>
